@@ -21,11 +21,9 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 Step 7: Save and run the application.
 
 PROGRAM:
-/*
 Program to print the contact name and phone number using content providers.
 Developed by: Surya R
 Registeration Number : 212222040167
-*/
 Mainactivity.java:
 package com.example.ex5;
 import android.support.v7.app.AppCompatActivity;
@@ -86,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("Total Count of Contacts: "+count);}
 }
+
 Activitymain.XML:
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,10 +132,10 @@ AndroidMainfest.XML:
     </application>
 
 </manifest>
-OUTPUT
-MAD Exp_5(1_
 
-MAD Exp_5(2)
+
+OUTPUT
+image 
 
 RESULT
-Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
+Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully
